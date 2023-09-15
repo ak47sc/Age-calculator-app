@@ -61,6 +61,13 @@ form input{
     font-size: 24px;
     padding-left: 0.5rem;
 }
+form input::-webkit-inner-spin-button,form input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+input{
+    -moz-appearance: none;
+    appearance: none;
+}
 form input:hover{
     border-color:  hsl(259, 100%, 65%);
     cursor: pointer;
